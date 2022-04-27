@@ -1,42 +1,62 @@
-import * as React from "react"
-import PropTypes from "prop-types"
-import { Link } from "gatsby"
+import React from "react"
+import Fade from "react-reveal/Fade"
+import myInfo from "./myInfo"
+import '../scss/header.scss'
+import '../scss/common.scss'
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+const Header = () => {
+  return (
+    <div className="section" id="home">
+      <div className="container">
+        <div className="header-wrapper">
+          <Fade bottom>
+            <h2>
+              Hi, I'm {myInfo.name}{" "}
+              <span role="img" aria-label="Emoji">
+                👋
+              </span>
+            </h2>
+          </Fade>
+          <Fade bottom cascade>
+            <div className="heading-wrapper">
+              <h1>
+                {myInfo.headerTags[0]}
+              </h1>
+              <h1>
+                {" "}
+                {myInfo.headerTags[1]}
+              </h1>
+              <h1>
+                {" "}
+                {myInfo.headerTags[2]}
+              </h1>
+            </div>
+          </Fade>
+          <Fade bottom>
+            <p>{myInfo.headerParagraph}</p>
+          </Fade>
+          <Fade bottom>
+            <a
+              href='https://www.linkedin.com/in/hfathi99/'
+              target="_blank"
+              type="button"
+              className="primary-btn"
+            >
+              LET'S CONNECT
+            </a>
+            <a
+              href='https://drive.google.com/file/d/1niYlydCh3kdq9ivcCOe1Oz-RE39qd0Sj/view?usp=sharing'
+              target="_blank"
+              type="button"
+              className="primary-btn"
+            >
+              MY RESUME
+            </a>
+          </Fade>
+        </div>
+      </div>
     </div>
-  </header>
-)
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
+  )
 }
 
 export default Header
