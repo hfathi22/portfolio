@@ -29,7 +29,7 @@ const Footer = () => {
               </a>
             ))}
           </div>
-          <span>
+          <span className="email-link">
             Website template inspired by{" "}
             <a href="https://www.chetanverma.com/">Chetan Verma</a>
           </span>
