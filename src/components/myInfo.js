@@ -39,7 +39,7 @@ export default {
     aboutParaTwo: "Beside my academics, I take inspirations from reading books as it helps me improve myself as an individual, work towards my goals in life and realize my true potential. I also love connecting with people and hearing about their own experiences. If you have something to share or would like to know more about me, let’s connect and learn from each other!  ",
     aboutParaThree: "",
 
-    aboutImage: "https://drive.google.com/uc?export=view&id=1q_wECZh6ItMMz3jfEpPfpiBLfMzrkOlj",
+    aboutImage: "https://drive.google.com/uc?export=view&id=1Rzfe6QRB8w6SsAH4rYhPvTLU3QSkamTL",
 
     Books: [{
         title: "Can't Hurt Me: Master Your Mind and Defy the Odds",

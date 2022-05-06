@@ -45,7 +45,7 @@ const Header = () => {
               LET'S CONNECT
             </a>
             <a
-              href='https://drive.google.com/file/d/1niYlydCh3kdq9ivcCOe1Oz-RE39qd0Sj/view?usp=sharing'
+              href='https://drive.google.com/file/d/18IxsrSZ51fZ7bxv-e_GSQsUyGnnz1jjb/view?usp=sharing'
               target="_blank"
               type="button"
               className="primary-btn"

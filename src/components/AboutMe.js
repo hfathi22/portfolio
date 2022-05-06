@@ -4,6 +4,7 @@ import '../scss/common.scss'
 import '../scss/aboutme.scss'
 import data from "./myInfo"
 
+
 const AboutMe = () => {
   return (
     <div className="secion" id="about">
