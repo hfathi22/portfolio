@@ -29,10 +29,6 @@ const Footer = () => {
               </a>
             ))}
           </div>
-          <span className="email-link">
-            Website template inspired by{" "}
-            <a href="https://www.chetanverma.com/">Chetan Verma</a>
-          </span>
         </div>
       </div>
     </div>

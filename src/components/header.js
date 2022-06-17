@@ -1,6 +1,7 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 import myInfo from "./myInfo"
+import resume from "../images/software_resume.pdf"
 import '../scss/header.scss'
 import '../scss/common.scss'
 
@@ -45,7 +46,7 @@ const Header = () => {
               LET'S CONNECT
             </a>
             <a
-              href='https://drive.google.com/file/d/18IxsrSZ51fZ7bxv-e_GSQsUyGnnz1jjb/view?usp=sharing'
+              href={resume}
               target="_blank"
               type="button"
               className="primary-btn"
